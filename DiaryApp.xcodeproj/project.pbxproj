@@ -3,34 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D42A1D025627CFE005461C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A1CF25627CFE005461C2 /* AppDelegate.swift */; };
 		8D42A1D225627CFE005461C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A1D125627CFE005461C2 /* SceneDelegate.swift */; };
-		8D42A1D425627CFE005461C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A1D325627CFE005461C2 /* ViewController.swift */; };
 		8D42A1D725627CFE005461C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D42A1D525627CFE005461C2 /* Main.storyboard */; };
 		8D42A1D925627D01005461C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D42A1D825627D01005461C2 /* Assets.xcassets */; };
 		8D42A1DC25627D01005461C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D42A1DA25627D01005461C2 /* LaunchScreen.storyboard */; };
+		8D42A201256282EF005461C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A200256282EF005461C2 /* HomeViewController.swift */; };
+		8D42A20A256283CF005461C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A209256283CF005461C2 /* LoginViewController.swift */; };
+		8D42A20E256283E2005461C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A20D256283E2005461C2 /* SignUpViewController.swift */; };
+		8D42A21125628589005461C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D42A21025628589005461C2 /* GoogleService-Info.plist */; };
+		8D42A23425628BA9005461C2 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A23325628BA9005461C2 /* AuthManager.swift */; };
+		8D42A2372562AE85005461C2 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42A2362562AE85005461C2 /* DatabaseManager.swift */; };
+		8D92830A2564C35400549887 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9283092564C35400549887 /* HomeCollectionViewCell.swift */; };
+		8D9BD42C2566225F006D338D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BD42B2566225F006D338D /* Models.swift */; };
+		8DD3CFF22566C03D00505DC3 /* addNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3CFF12566C03D00505DC3 /* addNoteViewController.swift */; };
+		8DF08D3525651AA20036EFE7 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF08D3425651AA20036EFE7 /* EditViewController.swift */; };
+		8DF35FEE25DE73F500C7C9D0 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF35FED25DE73F500C7C9D0 /* IQKeyboardManagerSwift */; };
+		8DF35FF225DE74CD00C7C9D0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF35FF125DE74CD00C7C9D0 /* FirebaseAuth */; };
+		8DF35FF425DE74CD00C7C9D0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF35FF325DE74CD00C7C9D0 /* FirebaseFirestore */; };
+		8DF35FF625DE74CD00C7C9D0 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF35FF525DE74CD00C7C9D0 /* FirebaseFirestoreSwift-Beta */; };
+		8DF35FFA25DE758700C7C9D0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF35FF925DE758700C7C9D0 /* RealmSwift */; };
+		8DFFE8C82563A7B10043C300 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFFE8C72563A7B10043C300 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D42A1CC25627CFE005461C2 /* DiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D42A1CF25627CFE005461C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D42A1D125627CFE005461C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D42A1D325627CFE005461C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D42A1D625627CFE005461C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D42A1D825627D01005461C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D42A1DB25627D01005461C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D42A1DD25627D01005461C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D42A200256282EF005461C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8D42A209256283CF005461C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D42A20D256283E2005461C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8D42A21025628589005461C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D42A23325628BA9005461C2 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8D42A2362562AE85005461C2 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		8D9283092564C35400549887 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D9BD42B2566225F006D338D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8DD3CFF12566C03D00505DC3 /* addNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNoteViewController.swift; sourceTree = "<group>"; };
+		8DF08D3425651AA20036EFE7 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		8DFFE8C72563A7B10043C300 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D42A1C925627CFE005461C2 /* Frameworks */ = {
+		7CD90A3EEFB365E4965547CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF35FEE25DE73F500C7C9D0 /* IQKeyboardManagerSwift in Frameworks */,
+				8DF35FF625DE74CD00C7C9D0 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				8DF35FF225DE74CD00C7C9D0 /* FirebaseAuth in Frameworks */,
+				8DF35FFA25DE758700C7C9D0 /* RealmSwift in Frameworks */,
+				8DF35FF425DE74CD00C7C9D0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,81 @@
 		8D42A1CE25627CFE005461C2 /* DiaryApp */ = {
 			isa = PBXGroup;
 			children = (
-				8D42A1CF25627CFE005461C2 /* AppDelegate.swift */,
-				8D42A1D125627CFE005461C2 /* SceneDelegate.swift */,
-				8D42A1D325627CFE005461C2 /* ViewController.swift */,
-				8D42A1D525627CFE005461C2 /* Main.storyboard */,
-				8D42A1D825627D01005461C2 /* Assets.xcassets */,
-				8D42A1DA25627D01005461C2 /* LaunchScreen.storyboard */,
+				8D42A207256283A7005461C2 /* Resources */,
+				8D42A20625628349005461C2 /* Models */,
+				8D42A20425628335005461C2 /* Views */,
+				8D42A2052562833D005461C2 /* Controllers */,
 				8D42A1DD25627D01005461C2 /* Info.plist */,
 			);
 			path = DiaryApp;
+			sourceTree = "<group>";
+		};
+		8D42A203256282FA005461C2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D42A1D525627CFE005461C2 /* Main.storyboard */,
+				8D42A1DA25627D01005461C2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D42A20425628335005461C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D9283082564C32D00549887 /* Cells */,
+				8D42A1D825627D01005461C2 /* Assets.xcassets */,
+				8D42A203256282FA005461C2 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D42A2052562833D005461C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D42A208256283BB005461C2 /* OnBoarding */,
+				8D42A200256282EF005461C2 /* HomeViewController.swift */,
+				8DF08D3425651AA20036EFE7 /* EditViewController.swift */,
+				8DD3CFF12566C03D00505DC3 /* addNoteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D42A20625628349005461C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D9BD42B2566225F006D338D /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D42A207256283A7005461C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D42A21025628589005461C2 /* GoogleService-Info.plist */,
+				8D42A1CF25627CFE005461C2 /* AppDelegate.swift */,
+				8D42A1D125627CFE005461C2 /* SceneDelegate.swift */,
+				8D42A23325628BA9005461C2 /* AuthManager.swift */,
+				8D42A2362562AE85005461C2 /* DatabaseManager.swift */,
+				8DFFE8C72563A7B10043C300 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D42A208256283BB005461C2 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				8D42A209256283CF005461C2 /* LoginViewController.swift */,
+				8D42A20D256283E2005461C2 /* SignUpViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		8D9283082564C32D00549887 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D9283092564C35400549887 /* HomeCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,14 +171,21 @@
 			buildConfigurationList = 8D42A1E025627D01005461C2 /* Build configuration list for PBXNativeTarget "DiaryApp" */;
 			buildPhases = (
 				8D42A1C825627CFE005461C2 /* Sources */,
-				8D42A1C925627CFE005461C2 /* Frameworks */,
 				8D42A1CA25627CFE005461C2 /* Resources */,
+				7CD90A3EEFB365E4965547CC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DiaryApp;
+			packageProductDependencies = (
+				8DF35FED25DE73F500C7C9D0 /* IQKeyboardManagerSwift */,
+				8DF35FF125DE74CD00C7C9D0 /* FirebaseAuth */,
+				8DF35FF325DE74CD00C7C9D0 /* FirebaseFirestore */,
+				8DF35FF525DE74CD00C7C9D0 /* FirebaseFirestoreSwift-Beta */,
+				8DF35FF925DE758700C7C9D0 /* RealmSwift */,
+			);
 			productName = DiaryApp;
 			productReference = 8D42A1CC25627CFE005461C2 /* DiaryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +213,11 @@
 				Base,
 			);
 			mainGroup = 8D42A1C325627CFE005461C2;
+			packageReferences = (
+				8DF35FEC25DE73F500C7C9D0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				8DF35FF025DE74CD00C7C9D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8DF35FF825DE758600C7C9D0 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 8D42A1CD25627CFE005461C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D42A1DC25627D01005461C2 /* LaunchScreen.storyboard in Resources */,
+				8D42A21125628589005461C2 /* GoogleService-Info.plist in Resources */,
 				8D42A1D925627D01005461C2 /* Assets.xcassets in Resources */,
 				8D42A1D725627CFE005461C2 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D42A1D425627CFE005461C2 /* ViewController.swift in Sources */,
+				8D9BD42C2566225F006D338D /* Models.swift in Sources */,
+				8DF08D3525651AA20036EFE7 /* EditViewController.swift in Sources */,
+				8D42A20A256283CF005461C2 /* LoginViewController.swift in Sources */,
+				8D42A23425628BA9005461C2 /* AuthManager.swift in Sources */,
+				8DD3CFF22566C03D00505DC3 /* addNoteViewController.swift in Sources */,
 				8D42A1D025627CFE005461C2 /* AppDelegate.swift in Sources */,
+				8DFFE8C82563A7B10043C300 /* Extensions.swift in Sources */,
 				8D42A1D225627CFE005461C2 /* SceneDelegate.swift in Sources */,
+				8D92830A2564C35400549887 /* HomeCollectionViewCell.swift in Sources */,
+				8D42A201256282EF005461C2 /* HomeViewController.swift in Sources */,
+				8D42A20E256283E2005461C2 /* SignUpViewController.swift in Sources */,
+				8D42A2372562AE85005461C2 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +459,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DF35FEC25DE73F500C7C9D0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		8DF35FF025DE74CD00C7C9D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.0;
+			};
+		};
+		8DF35FF825DE758600C7C9D0 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DF35FED25DE73F500C7C9D0 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DF35FEC25DE73F500C7C9D0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		8DF35FF125DE74CD00C7C9D0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DF35FF025DE74CD00C7C9D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8DF35FF325DE74CD00C7C9D0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DF35FF025DE74CD00C7C9D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8DF35FF525DE74CD00C7C9D0 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DF35FF025DE74CD00C7C9D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		8DF35FF925DE758700C7C9D0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DF35FF825DE758600C7C9D0 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D42A1C425627CFE005461C2 /* Project object */;
 }
